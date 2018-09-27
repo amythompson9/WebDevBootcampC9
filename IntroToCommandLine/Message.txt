@@ -1,5 +1,0 @@
-Hello from the Message.txt file!!
-
-Hello, again.
-
-Ok Goodbye
