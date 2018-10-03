@@ -16,3 +16,9 @@
     most popular node web dev framework
     lots of tutorials
     light weight framework
+
+#Our First Express App
+
+* Review an existing app (DogDemo)
+* Review HTTP response/request lifecycle
+* Create our own simple Express app!
