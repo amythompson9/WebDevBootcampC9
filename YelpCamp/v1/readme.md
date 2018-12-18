@@ -14,3 +14,7 @@ Each Campground has:
  {name:"", image: ""}
  {name:"", image: ""}
 ]
+
+#Layout and Basic Styling
+* Create our header and footer partials
+* Add in Bootstrap
