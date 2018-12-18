@@ -20,9 +20,12 @@ Each Campground has:
 * Add in Bootstrap
  
 #Creating New Campgrounds
-*Setup new campground POST route
-*Add in body-parser
-*Setup route to show form
-*Add basic unstyled form
+* Setup new campground POST route
+* Add in body-parser
+* Setup route to show form
+* Add basic unstyled form
 
+#Style the campground page
+* Add a better header/title
+* Make campgrounds display in a grid
 
