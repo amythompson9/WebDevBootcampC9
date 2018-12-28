@@ -13,4 +13,13 @@
           - thing can be nested
           - BSON - binary 
     
+#Intro to MongoDB
+* What is MongoDB?
+    NoSQL DB - flexible and dynamic
+* Why are we using it?
+    Doable in any database
+    Most popular right now with node
+    MEAN - Mongo, Express, Angular, Node
+    MEAN - Mongo, Express, Node
+* Let's Install it!
 
