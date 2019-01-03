@@ -34,3 +34,9 @@
 * remove - remove from db
  
 CRUD
+
+#Mongoose
+* What is Mongoose - object modeling for node.js, schema based, tool/package, interacts with db
+* Why are we using it
+* Interact with a Mongo DB using Mongoose
+
