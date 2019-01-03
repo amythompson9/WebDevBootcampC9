@@ -23,3 +23,14 @@
     MEAN - Mongo, Express, Node
 * Let's Install it!
 
+#Our First Mongo Commands
+* mongod - starts mongo demon, has to run in order to use mongo
+* mongo - separate tab, opens mongo shell, like JS console
+* help - gives list of basic features/commands
+* show dbs - shows db names
+* use - make a db, or use one that exists
+* insert - add to db
+* find update - change db
+* remove - remove from db
+ 
+CRUD
