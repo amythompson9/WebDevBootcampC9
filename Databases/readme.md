@@ -1,6 +1,6 @@
-#Databases
+# Databases
 
-##Intro to Databases
+# Intro to Databases
 * What is a Database
     * A collection of information/data
     * Has an interface - you can write code to interact with it
@@ -13,7 +13,8 @@
           - thing can be nested
           - BSON - binary 
     
-#Intro to MongoDB
+
+# Intro to MongoDB
 * What is MongoDB?
     NoSQL DB - flexible and dynamic
 * Why are we using it?
@@ -23,7 +24,7 @@
     MEAN - Mongo, Express, Node
 * Let's Install it!
 
-#Our First Mongo Commands
+# Our First Mongo Commands
 * mongod - starts mongo demon, has to run in order to use mongo
 * mongo - separate tab, opens mongo shell, like JS console
 * help - gives list of basic features/commands
@@ -35,8 +36,10 @@
  
 CRUD
 
-#Mongoose
+# Mongoose
 * What is Mongoose - object modeling for node.js, schema based, tool/package, interacts with db
 * Why are we using it
 * Interact with a Mongo DB using Mongoose
+
+
 
