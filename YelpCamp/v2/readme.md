@@ -11,3 +11,15 @@
 * Setup campground modeling
 * Use campground model inside of our routes
 
+# Show Page
+* Review the RESTful routes we've seen so far
+    Name    URL         Verb    Discription
+_________________________________________________________
+    INDEX   /dogs       GET     Display a list of all dogs
+    NEW     /dogs/new   GET     Displays form to make a new dogs
+    CREATE  /dogs       POST    Add new dog to DB
+    SHOW    /dogs/:id   GET     Shows info about one dog
+* Add description to our campground model
+* Show db.collecction.drop()
+* Add  show route/template
+
