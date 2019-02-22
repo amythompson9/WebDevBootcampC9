@@ -13,6 +13,12 @@
 
 # Show Page
 * Review the RESTful routes we've seen so far
+* Add description to our campground model
+* Show db.collection.drop()
+* Add a show rroute/template
+
+RESTFUL ROUTES
+
     Name    URL         Verb    Discription
 _________________________________________________________
     INDEX   /dogs       GET     Display a list of all dogs
