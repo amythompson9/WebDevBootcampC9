@@ -55,8 +55,16 @@ app.post("/blogs", function(req, res) {
 
 //SHOW Route
 app.get("/blogs/:id", function(req, res){
-   res.send("SHOW PAGE!"); 
+   Blog.findById(req.params.id, function(err, foundBlog){
+       if(err){
+           res.redirect("/blogs");
+       }
+       else {
+           res.render("show", {blog: foundBlog});
+       }
+   }); 
 });
+
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("SERVER IS RUNNING");
 })
