@@ -20,3 +20,9 @@ User
 Post
 
 ##Referencing Data
+
+##Module.Exports
+* Introduce module.exports
+* Move our models into separte files
+ - Write Cleaner code
+ - Able to move code around
