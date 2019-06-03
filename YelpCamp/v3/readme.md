@@ -34,4 +34,7 @@ _________________________________________________________
 * Create a models directory
 * Use module.exports
 * Require everything correctly
-*
+
+#Add Seeds Files
+* Add a a seeds.js file
+* Run the seeds file every time the server starts
