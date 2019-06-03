@@ -29,3 +29,9 @@ _________________________________________________________
 * Show db.collecction.drop()
 * Add  show route/template
 
+
+#Refactor Mongoose code
+* Create a models directory
+* Use module.exports
+* Require everything correctly
+*
