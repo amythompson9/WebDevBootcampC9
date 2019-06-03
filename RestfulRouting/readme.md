@@ -33,3 +33,38 @@ Destroy /dogs/:id       DELETE      Delete a particular dog, then redirect somew
 * Create the Blog Model
 * Add INDEX route and template
 * Add Simple Nav Bar
+
+
+#Basic Layout
+* Add Header and Footer PArtials
+* Include Semantic UI
+* Add Simple Nav
+
+#Putting the C in CRUD
+* Add NEW route
+* Add NEW template
+* Add CREATE route
+* Add CREATE template
+
+#SHOWtime
+* Add Show route
+* Add Show template
+* Add links to show page
+* Style show template
+
+#Edit/Update
+* Add Edit Routes
+* Add Edit Form
+* Add Update Route
+* Add Update Form
+* Add Method-Override
+
+#Destroy
+* Add Destroy Route
+* Add Edit and Destroy Links
+
+##Final Updates
+* Sanitize blog Body
+* Style Index
+* Update REST Table
+
