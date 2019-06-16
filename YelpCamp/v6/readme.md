@@ -56,6 +56,11 @@ _________________________________________________________
 * Add public directory
 * Add custom stylesheet
 
-# Add User Model
+# Auth Pt 1 - Add User Model
 * Install all packages needed for auth
 * Define User Model
+
+# Auth Pt 2 - Register
+* Configure PAssport
+* Add register routes
+* Add register templates
