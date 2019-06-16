@@ -68,3 +68,9 @@ _________________________________________________________
 # Auth Pt. 3 - Login
 * Add Login routes
 * add login template
+
+# Auth Pt. 4 - Logout/NavBar
+* Add logout route
+* Prevent user from adding a commnet if not signed in
+* Add links to nabar
+* Show/hide auth links correctly
