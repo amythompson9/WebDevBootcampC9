@@ -64,3 +64,7 @@ _________________________________________________________
 * Configure PAssport
 * Add register routes
 * Add register templates
+
+# Auth Pt. 3 - Login
+* Add Login routes
+* add login template
