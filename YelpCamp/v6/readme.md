@@ -73,4 +73,6 @@ _________________________________________________________
 * Add logout route
 * Prevent user from adding a commnet if not signed in
 * Add links to nabar
+
+# Auth Pt. 5 - Show/Hide Links
 * Show/hide auth links correctly
