@@ -56,6 +56,27 @@ router.get("/:id", function(req, res) {
 
 //EDIT CAMPGROUND ROUTE
 router.get("/:id/edit", function(req, res){
+    //is user logged in
+        if(req.isAuthenticated()) {
+            Campground.findById(req.params.id, function(err, foundCampground){
+                if(err) {
+                    res.redirect("/campgrounds")
+                } else {
+                     //does user own campground?
+                     if(foundCampground.author.id.equals(req.user._id)){
+                         res.render("campgrounds/edit", {campground: foundCampground});
+                     } else {
+                         res.send("You do not have permission")
+                     }
+                }
+            });
+        } else {
+            console.log("You have to be logged in");
+            res.send("You have to be logged in")
+        }
+       
+        //if not redirect
+    //if not redirect
     Campground.findById(req.params.id, function(err, foundCampground){
         if(err) {
             res.redirect("/campgrounds")
