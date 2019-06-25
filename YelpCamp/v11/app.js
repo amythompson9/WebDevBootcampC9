@@ -16,7 +16,7 @@ var commentRoutes       = require("./routes/comments"),
     campgroundsRoutes   = require("./routes/campgrounds"),
     authRoutes          = require("./routes/auth");
     
-mongoose.connect("mongodb://localhost:27017/yelp_camp_v5", {useNewUrlParser: true});
+mongoose.connect("mongodb://localhost:27017/yelp_camp_v11", {useNewUrlParser: true});
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
@@ -39,6 +39,8 @@ passport.deserializeUser(User.deserializeUser());
 //show correct navbar on every page
 app.use(function(req, res, next){
     res.locals.currentUser = req.user;
+    res.locals.error = req.flash("error");
+    res.locals.success = req.flash("success");
     next();
 });
 
